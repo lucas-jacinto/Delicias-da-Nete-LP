@@ -1,0 +1,96 @@
+.sobre_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.line-top4 {
+  width: 80vw;
+  background-color: #fff;
+  height: 1px;
+  margin-left: 11rem;
+  margin-bottom: 0.1rem;
+}
+
+.h1_sobre {
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 2.4rem;
+  margin-left: 12rem;
+  color: var(--cor-bg-variacao);
+}
+
+.img-sobre img {
+  width: 45rem;
+  height: 40rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+}
+
+.img-sobre h4 {
+  color: var(--cor-bg-variacao);
+  font-size: larger;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.img-sobre h6 {
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.conteudo-sobre h2 {
+  margin-top: 4rem;
+  text-align: center;
+}
+.conteudo-sobre p {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btn-sobre {
+  margin: 3rem 0 0 17rem;
+}
+
+.icon-sobre {
+  color: rgb(223, 0, 0);
+  font-size: 1.3rem;
+}
+.conteudo-sobre a {
+  color: rgb(104, 97, 97);
+}
+
+.conteudo-sobre a:hover {
+  color: blue;
+}
+
+.socials-sobre {
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+  align-items: center;
+}
+
+.socials-sobre a{
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--cor-primaria);
+  margin: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 10%;
+  color: #fff;
+}
+
+.socials-sobre a:hover{
+  background-color: transparent;
+  transition: var(--transition);
+  border: 1px solid var(--cor-primaria);
+}
+.socials-sobre a:nth-child(2):hover{
+  color: rgb(137, 46, 223);
+}
+
+.socials-sobre a:nth-child(3):hover{
+  color: green;
+}

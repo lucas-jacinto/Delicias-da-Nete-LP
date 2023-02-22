@@ -1,0 +1,76 @@
+.bolos_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-top: -3rem;
+}
+
+
+.bolos_cards {
+  width: 23rem;
+  height: 24rem;
+  background-color: var(--cor-bg-variacao);
+  border-radius: 0.5rem;
+  margin-top: 6rem;
+}
+
+.bolos_img img {
+  padding: fit-content;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.bolos_text {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 1rem;
+}
+
+.h1_bolos {
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  margin-left: 12rem;
+  color: var(--cor-bg-variacao);
+}
+
+.line-top{
+  width: 80vw;
+  background-color:#fff;
+  height: 1px;
+  margin-left: 11rem;
+  margin-bottom: 0.1rem;
+}
+
+.bolos-section{
+  padding-top: 8rem;
+}
+
+.btn-bolos{
+  display: flex;
+  margin-top: 7rem;
+  font-size: larger;
+}
+
+
+/*Media MEDIUM devices*/
+
+@media screen and (max-width: 1024px) {
+  .bolos_container {
+    grid-template-columns: 1fr;
+  }
+  .bolos_img img {
+    width: 60%;
+  }
+  .h1_bolos {
+    margin-left: 9rem;
+    font-size: 2.4rem;
+  }
+  #bolos {
+    margin-top: 3rem;
+  }
+  .card_bolos {
+    width: 60%;
+    margin-top: -1rem;
+  }
+}
