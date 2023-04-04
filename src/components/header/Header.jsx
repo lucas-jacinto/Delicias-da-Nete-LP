@@ -7,11 +7,11 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 const Header = () => {
   return (
-    
+
   <nav>
     <div className='container nav_container'>
 
-        <a href='#' className='logo'>
+        <a href='#bolos' className='logo'>
           <img src={logo} alt="logo da delicias da nete" />
         </a>
 

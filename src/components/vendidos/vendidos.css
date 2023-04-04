@@ -1,0 +1,15 @@
+.line-top4 {
+    width: 80vw;
+    background-color: #fff;
+    height: 1px;
+    margin-left: 11rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .h1_valores{
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+    margin-left: 12rem;
+    color: var(--cor-bg-variacao);
+  }

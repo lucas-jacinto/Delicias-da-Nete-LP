@@ -7,8 +7,6 @@ import {AiFillFacebook,AiFillInstagram,AiOutlineWhatsApp} from 'react-icons/ai'
 const Sobre = () => {
   return (
     <section id='sobre'>
-      <div className='line-top4'></div>
-      <div className='line-top4'></div>
       <h1 className='h1_sobre'>Contato </h1>
       <div className='container sobre_container'>
       <div className='img-sobre'>

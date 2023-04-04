@@ -7,6 +7,7 @@ import Top from './components/top/Top'
 import Bolos from './components/bolos/Bolos'
 import Bombons from './components/bombons/Bombons'
 import FAQs from './components/faqs/FAQs'
+import Vendidos from './components/vendidos/Vendidos'
 import Galeria from './components/galeria/Galeria'
 import Sobre from './components/sobre/Sobre'
 
@@ -17,8 +18,9 @@ root.render(
     <Top />
     <Bolos />
     <Bombons />
-    <FAQs />
+    <Vendidos/>
     <Galeria/>
+    <FAQs />
     <Sobre/>
     <Footer />
   </React.StrictMode>
