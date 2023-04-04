@@ -48,9 +48,24 @@
 
 .btn-bolos{
   display: flex;
-  margin-top: 7rem;
+  margin-top: 13rem;
   font-size: larger;
 }
+
+.cake-img {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.cake-img img{
+  height: 18rem;
+  width: 18rem;
+  padding-top: 9rem;
+}
+
+
+
 
 
 /*Media MEDIUM devices*/

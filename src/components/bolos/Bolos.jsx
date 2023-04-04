@@ -4,6 +4,7 @@ import bolos3 from '../../assets/bolo2.png'
 import bolos4 from '../../assets/bolo4.png'
 import bolos5 from '../../assets/bolo5.png'
 import bolos6 from '../../assets/bolo6.png'
+import boloImg from '../../assets/cake-icon.png'
 
 const Bolos = () => {
   return (
@@ -11,6 +12,7 @@ const Bolos = () => {
       <div className='line-top'></div>
       <div className='line-top'></div>
       <h1 className='h1_bolos'>Bolos e Tortas</h1>
+      <div className='cake-img'><img src={boloImg} alt="bolo imagem icon" /></div>
       <div className='container bolos_container'>
           <div className='bolos_cards'>
             <div className='bolos_img'>
