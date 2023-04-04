@@ -56,12 +56,14 @@
   display: flex;
   justify-content: right;
   align-items: right;
+  margin-top: -12rem;
 }
 
 .cake-img img{
-  height: 18rem;
-  width: 18rem;
+  height: 19rem;
+  width: 19rem;
   padding-top: 9rem;
+
 }
 
 

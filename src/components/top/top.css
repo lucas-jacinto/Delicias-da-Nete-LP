@@ -29,6 +29,15 @@
   margin-top: -3rem;
 }
 
+.chocolate-img{
+  display: flex;
+}
+
+.chocolate-img img{
+  height: 10rem;
+  width: 10rem;
+}
+
 /*Media MEDIUM devices*/
 
 @media screen and (max-width: 1024px) {
