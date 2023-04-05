@@ -30,7 +30,8 @@
 }
 
 .chocolate-img{
-  display: flex;
+  display: inline-block;
+  margin-bottom: -9rem;
 }
 
 .chocolate-img img{
