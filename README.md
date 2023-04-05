@@ -10,6 +10,4 @@ Stack Utilizada:
 
 ## Preview
 
-![alt text](file:///C:/Users/lucas/Downloads/print-deliciasdanete.png)
-
-![alt text](https://github.com/lucas-jacinto/Delicias-da-Nete-LP/blob/master/print-deliciasdanete.png?raw=true)
+![alt text](https://github.com/lucas-jacinto/Delicias-da-Nete-LP/blob/main/print-deliciasdanete.png?raw=true)
