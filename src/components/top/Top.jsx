@@ -6,7 +6,9 @@ import chocolateIcon from '../../assets/chocolate-icon.png'
 const Top = () => {
   return (
     <section className='section_top'>
-    <div className='chocolate-img'><img src={chocolateIcon} alt="chocolate icon" /></div>
+    <div className='chocolate-img'>
+      <img src={chocolateIcon} alt="chocolate icon" />
+      </div>
       <div className='container top_container'>
         <div className='top_infos'>
           <h4>#MelhoresBombonsDaRegião</h4>

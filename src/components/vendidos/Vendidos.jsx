@@ -9,8 +9,14 @@ const vendidos = () => {
       <div className='line-top4'></div>
         <h1 className='h1_valores'>Valores</h1>
         <div className='valores valores_container'>
-          <div className='img-tabela'>
-            <img src={tabela} alt='tabela de valores'/>
+          <div className='tabela-valor'>
+           <div className='tabela-img'>
+              <img src={tabela} alt='tabela de valores'/>
+            </div>
+            <div className='tabela-text'>
+              <h2>Somos os melhores</h2>
+              <p>Aqui temos varios sabores</p>
+            </div>
           </div>
         </div>
     </section>
