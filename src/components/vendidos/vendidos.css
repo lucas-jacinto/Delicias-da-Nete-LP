@@ -17,6 +17,7 @@
   .tabela-valor{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     border: 1px solid red;
   }
 
@@ -24,8 +25,8 @@
     border: 1px solid green;
   }
   .tabela-img img{
-    width: 20rem;
-    height: 20rem;
+    width: 40rem;
+    height: 55rem;
   }
 
   .tabela-text{
